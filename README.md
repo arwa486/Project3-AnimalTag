@@ -1,33 +1,29 @@
-# Project 3 - AnimalTag
+# AnimalTag 
 
-## Team Members 
-- Alex Rwamashongye 
 
 ## Project Description 
 
-This decentralized app (dApp) to take in photos of farm animals and tag them to have the data store in a decentralized manner. Basically an exchange of Non-Fungible Tokens (NFTs) of animals.  
+This is decentralized app (dApp) to digitially "tag" animals. Instead of using physical brandings or tags, the end-user (e.g. a farmer or rancher) can take a photo of their animals and 
 
 ## Objective 
 
-Develop a smart contract to take in photos as a particular animal id. Allow users to buy, sell, and exchange animals
+The objective of this project is to create a decentralized application (dApp) that can be used to tag and track animals humanely. In contrast to physically tagging or branding animals, AnimalTag would allow end-users the abilitity to track their animals through photo and genetic record on the blockchain. Transfer of ownership is clear cut as 
 
-## Data Sources / Technologies 
-
+## Technologies 
+- [Solidity](https://docs.soliditylang.org/en/v0.8.4/)
 - [Open Zeppelin](https://openzeppelin.com/contracts/)
-- [Chainlink](https://chain.link/)
-
-## Breakdown of Tasks 
-- Figure out the connection between uers, NFTS, and the blockchain protocol (e.g. if a farmer needs to buy FARM coin and stake on the network, is it useful?)
-- Draft an outline of features and functions to be implemented. 
-    - Import photos 
-    - Buy, send or trade animal NFTs 
-- Create the smart contract. 
-- Test the contract on testnetwork or on localhost to debug and understand the contract logic. 
-- Create a UI that can be accessed. 
-    - If time allows, create a UI that is mobile-friendly. 
-- Create demo for presentation and slide deck discussing project. 
-- Extra: create graphics and "investor pitch." 
+- [Pinata](https://pinata.cloud/)
+- [Chainlink](https://chain.link/)*         
 
 
+## Running the Project 
+
+1. Most of the programming can be done in the Remix IDE as it allows for virtual compilation and can be used with various EVM sandboxes. ![](./Screenshots/deployedContract_addAnimalFunction.PNG)
+
+2. Contract is based around three primary functions: `addAnimal()`, `transferFrom()` and `removeAnimal()`. ![](./Screenshots/deployedContract_callingTokenID.PNG)
+
+## Future Development 
+
+3. *@TODO*: interface Solidity code with Python/Web3 or Node.js.
 
 
